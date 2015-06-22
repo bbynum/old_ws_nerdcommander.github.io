@@ -24,6 +24,12 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
 body { font: 100% Courier New; margin: 20px; line-height: 26px; color: #84c754; 
     background: #171717;
 }

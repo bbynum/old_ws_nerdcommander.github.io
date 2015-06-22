@@ -30,6 +30,29 @@ h3 {
     font-size: 1.25em;
 }
 
+img {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #ccc;
+}
+
+#sidebar { color: #ffffff; border: 1px solid #ffffff; border-radius: 4px; padding: 10px; width: 320px; top: 0; right: 0; position: absolute; font-size: 80%; } 
+
+#top, #sidebar, #bottom, .menuitem { border-radius: 4px; margin: 4px; }
+#top { background-color: #1DA237; color: #ffffff; padding: 15px; text-align: center;} 
+#main { padding: 10px; color: #84c754; } 
+#menubar { width: 150px; float: left; font-size: 125%; }
+
+#sidebar { background-color: #32a4e7; color: #ffffff; padding: 10px; width: 180px; bottom: 0; top: 0; right: 0;}
+#bottom { border: 1px solid #ffffff; border-radius: 4px; color: #ffffff; text-align: center; padding: 10px; font-size: 70%; line-height: 14px; } 
+#top h1,#top p { margin: 0; } 
+.menuitem { color: #84c754; cursor: pointer; display: inline;} 
+.menuitem:hover { color: #ffffff; } 
+.container { min-width: 900px; } 
+.wrapper { position: relative; overflow: auto; } 
+
+
+
 html
 
    </div>
